@@ -2,8 +2,16 @@ function createWarrantyPage() {
   let element;
   let label;
 
+  // element = document.createElement("h2");
+  // element.innerHTML = "Warranty Information";
+  // document.body.appendChild(element);
+
   element = document.createElement("h2");
-  element.innerHTML = "Warranty Information";
+  element.innerHTML = "<h2>Warranty Information</h2>";
+  document.body.appendChild(element);
+
+  element = document.createElement("h2");
+  element.innerHTML = "<h2>Device Information</h2>";
   document.body.appendChild(element);
 
   label = document.createElement("label");
